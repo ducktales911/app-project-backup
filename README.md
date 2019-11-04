@@ -41,7 +41,7 @@ Gamification element: je krijgt punten door het voltooien van taken. En minpunte
 - Een notepad functie waarop je kunt noteren wat je te binnen schiet.
 - Taken toevoegen met gestures zoals in de app “Clear”.
 
-[Prerequisites]
+## Prerequisites
 
 - De data wordt ingevoerd door de gebruiker. Er zijn geen externe data bronnen nodig.
 
@@ -54,6 +54,6 @@ Gamification element: je krijgt punten door het voltooien van taken. En minpunte
 - De app "Forest" geeft je punten wanneer je de app geopend houdt. Dit wil ik als optie toevoegen onder de instellingen.
 - De interface van de app "Clear" heeft een intuitieve manier om taken toe te voegen en te verwijderen met "gestures". Deze wil ik globaal overnemen zodat er minder knoppen nodig zijn die de interface rommelig maken.
 
--Identify the hardest parts of implementing your application: think of technical problems or limitations that could arise during development and what possibilities you have to overcome these.
+##### Mogelijke problemen
  - De hoeveelheid mogelijke functies maakt het lastig om een UI te ontwerpen die makkelijk te leren is en fijn in gebruik.
   - Een manier om dit tegen te gaan is door de meer specifieke functies te "verstoppen" of standaard uit te schakelen en als optie toe te voegen in de instellingen
