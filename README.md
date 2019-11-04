@@ -1,12 +1,8 @@
 # app-project
 A timed todo list with gamification elements for iOS
 
-[visual sketch]
-- of what the final product will look like for the user
-- multiple screens
-- Clearly specify the possible user interactions
-- include concrete examples of data
-(Your sketches do not have to be professional-looking, but they have to be complete and neat!)
+## Visual sketch
+
 
 ## Main features
 Timeboxing is het vooraf beperken van de hoeveelheid tijd die men aan een bepaalde activiteit wil en mag besteden. Dit om te voorkomen dat iets uitloopt. In deze app kan je een takenlijst maken en aan elke taak een tijd toekennen. Het voordeel is dat je dan kunt berekenen hoe lang het gaat duren om alle taken af te ronden, en je dus niet meer plant dan wat in een dag gedaan kan worden. Daarnaast weet je hoe laat je ongeveer klaar gaat zijn met de belangrijke taken van de dag, waardoor je dus weet of je tijd hebt voor andere plannen.
@@ -27,6 +23,7 @@ Timeboxing is het vooraf beperken van de hoeveelheid tijd die men aan een bepaal
 - Synchronisatie tussen apparaten
 - Mogelijkheid om templates van takenlijsten aan te maken
 - Universele app
+- Dark Mode
 
 ### Optioneel te implementeren
 - Een “nag” functie voor meldingen: blijf meldingen sturen totdat de gebruiker gehoor geeft (zoals de app “Due”).
