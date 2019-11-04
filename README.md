@@ -11,6 +11,7 @@ A timed todo list with gamification elements for iOS
 ## Main features
 Timeboxing is het vooraf beperken van de hoeveelheid tijd die men aan een bepaalde activiteit wil en mag besteden. Dit om te voorkomen dat iets uitloopt. In deze app kan je een takenlijst maken en aan elke taak een tijd toekennen. Het voordeel is dat je dan kunt berekenen hoe lang het gaat duren om alle taken af te ronden, en je dus niet meer plant dan wat in een dag gedaan kan worden. Daarnaast weet je hoe laat je ongeveer klaar gaat zijn met de belangrijke taken van de dag, waardoor je dus weet of je tijd hebt voor andere plannen.
 
+### MVP
 - Taken worden toegevoegd en een tijd toegekend
 - Vervolgens kan de gebruiker voor elke taak de timer laten lopen
 - All features should also be visible in the sketch
@@ -27,7 +28,7 @@ Timeboxing is het vooraf beperken van de hoeveelheid tijd die men aan een bepaal
 - Mogelijkheid om templates van takenlijsten aan te maken
 - Universele app
 
-### Optionele uitbreidingen
+### Optioneel te implementeren
 - Een “nag” functie voor meldingen: blijf meldingen sturen totdat de gebruiker gehoor geeft (zoals de app “Due”).
 Gamification element: je krijgt punten door het voltooien van taken. En minpunten als je taken uitlopen en als je te lange pauzes neemt.
 - Sociaal element: je kunt vrienden toevoegen en hun punten zien.
@@ -37,8 +38,7 @@ Gamification element: je krijgt punten door het voltooien van taken. En minpunte
 - Een notepad functie waarop je kunt noteren wat je te binnen schiet.
 - Taken toevoegen met gestures zoals in de app “Clear”.
 
-(If you have complicated features, it might be good to create a separate sketch for each feature.)
-- Mark which features define the minimum viable product (MVP) and which parts may be optional to implement.
+TODO: (If you have complicated features, it might be good to create a separate sketch for each feature.)
 
 [Prerequisites]
 
