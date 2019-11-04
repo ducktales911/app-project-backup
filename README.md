@@ -2,29 +2,55 @@
 A timed todo list with gamification elements for iOS
 
 [visual sketch]
--of what the final product will look like for the user
--multiple screens
--Clearly specify the possible user interactions
--include concrete examples of data
+- of what the final product will look like for the user
+- multiple screens
+- Clearly specify the possible user interactions
+- include concrete examples of data
 (Your sketches do not have to be professional-looking, but they have to be complete and neat!)
 
-[main features]
--brief list
--All features should also be visible in the sketch
+## Main features
+Timeboxing is het vooraf beperken van de hoeveelheid tijd die men aan een bepaalde activiteit wil en mag besteden. Dit om te voorkomen dat iets uitloopt. In deze app kan je een takenlijst maken en aan elke taak een tijd toekennen. Het voordeel is dat je dan kunt berekenen hoe lang het gaat duren om alle taken af te ronden, en je dus niet meer plant dan wat in een dag gedaan kan worden. Daarnaast weet je hoe laat je ongeveer klaar gaat zijn met de belangrijke taken van de dag, waardoor je dus weet of je tijd hebt voor andere plannen.
+
+- Taken worden toegevoegd en een tijd toegekend
+- Vervolgens kan de gebruiker voor elke taak de timer laten lopen
+- All features should also be visible in the sketch
+- Bovenin het scherm staat:
+  - Hoe laat je klaar bent met alle taken
+  - De totale tijd van alle taken
+- Melding wanneer de tijd voor de taak op is met de tekst "Time for [taak+1]" met Quick Actions:
+  - Snooze = huidige taak verlengen
+  - Beginnen met [taak+1]
+- Pomodoro functie
+  - Elke 25 minuten geeft de app een melding
+  - Na elk werkblok gaat een pauze van 5 minuten in
+- Synchronisatie tussen apparaten
+- Mogelijkheid om templates van takenlijsten aan te maken
+- Universele app
+
+### Optionele uitbreidingen
+- Een “nag” functie voor meldingen: blijf meldingen sturen totdat de gebruiker gehoor geeft (zoals de app “Due”).
+Gamification element: je krijgt punten door het voltooien van taken. En minpunten als je taken uitlopen en als je te lange pauzes neemt.
+- Sociaal element: je kunt vrienden toevoegen en hun punten zien.
+- Top charts
+- Punten gaan verloren als je de app afsluit (tegen smartphone-verslaving, zoals de app “Forest”)
+- Apple Watch app
+- Een notepad functie waarop je kunt noteren wat je te binnen schiet.
+- Taken toevoegen met gestures zoals in de app “Clear”.
+
 (If you have complicated features, it might be good to create a separate sketch for each feature.)
--Mark which features define the minimum viable product (MVP) and which parts may be optional to implement.
+- Mark which features define the minimum viable product (MVP) and which parts may be optional to implement.
 
 [Prerequisites]
 
 Describe the things that you’ll have to get in order before really starting your project.
 
--List the data sources that you will use and whether you will need to transform the data before it is usable for your application. The list should include links to where the data sources can be found.
+- List the data sources that you will use and whether you will need to transform the data before it is usable for your application. The list should include links to where the data sources can be found.
 
--List the external components (libraries like d3-tip or SQLite) that you need to implement certain features. Include the names, and if the component is not standard, include a link to its website.
+- List the external components (libraries like d3-tip or SQLite) that you need to implement certain features. Include the names, and if the component is not standard, include a link to its website.
 
--Include a review of similar mobile apps or related visualizations, in terms of features and technical aspects: what do they do? how have they implemented it? can you do it in the same way?
+- Include a review of similar mobile apps or related visualizations, in terms of features and technical aspects: what do they do? how have they implemented it? can you do it in the same way?
 
--Identify the hardest parts of implementing your application: think of technical problems or limitations that could arise during development and what possibilities you have to overcome these.
+-I dentify the hardest parts of implementing your application: think of technical problems or limitations that could arise during development and what possibilities you have to overcome these.
 
 [Sanity check]
 
