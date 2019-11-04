@@ -1,17 +1,17 @@
-# app-project
+# App project proposal
 A timed todo list with gamification elements for iOS
+
+Timeboxing is het vooraf beperken van de hoeveelheid tijd die men aan een bepaalde activiteit wil en mag besteden. Dit om te voorkomen dat iets uitloopt. In deze app kan je een takenlijst maken en aan elke taak een tijd toekennen. Het voordeel is dat je dan kunt berekenen hoe lang het gaat duren om alle taken af te ronden, en je dus niet meer plant dan wat in een dag gedaan kan worden. Daarnaast weet je hoe laat je ongeveer klaar gaat zijn met de belangrijke taken van de dag, waardoor je dus weet of je tijd hebt voor andere plannen.
 
 ## Visual sketch
 
 ![Sketch](https://raw.githubusercontent.com/ducktales911/app-project/master/doc/visual%20sketch.jpg)
 
 ## Main features
-Timeboxing is het vooraf beperken van de hoeveelheid tijd die men aan een bepaalde activiteit wil en mag besteden. Dit om te voorkomen dat iets uitloopt. In deze app kan je een takenlijst maken en aan elke taak een tijd toekennen. Het voordeel is dat je dan kunt berekenen hoe lang het gaat duren om alle taken af te ronden, en je dus niet meer plant dan wat in een dag gedaan kan worden. Daarnaast weet je hoe laat je ongeveer klaar gaat zijn met de belangrijke taken van de dag, waardoor je dus weet of je tijd hebt voor andere plannen.
 
 ### MVP
 - Taken worden toegevoegd en een tijd toegekend
 - Vervolgens kan de gebruiker voor elke taak de timer laten lopen
-- All features should also be visible in the sketch
 - Bovenin het scherm staat:
   - Hoe laat je klaar bent met alle taken
   - De totale tijd van alle taken
@@ -22,6 +22,11 @@ Timeboxing is het vooraf beperken van de hoeveelheid tijd die men aan een bepaal
   - Elke 25 minuten geeft de app een melding
   - Na elk werkblok gaat een pauze van 5 minuten in
 - Synchronisatie tussen apparaten
+- Punten worden verdient door:
+  - Taken te voltooien (langere taken leveren meer punten op)
+- Punten gaan verloren door:
+  - Taken door te schuiven (aan het eind van de dag geven alle onvoltooide taken minpunten)
+  - Taken uit te laten lopen: de wekker telt door nadat de tijd op is.
 - Mogelijkheid om templates van takenlijsten aan te maken
 - Universele app
 - Dark Mode
@@ -30,45 +35,25 @@ Timeboxing is het vooraf beperken van de hoeveelheid tijd die men aan een bepaal
 - Een “nag” functie voor meldingen: blijf meldingen sturen totdat de gebruiker gehoor geeft (zoals de app “Due”).
 Gamification element: je krijgt punten door het voltooien van taken. En minpunten als je taken uitlopen en als je te lange pauzes neemt.
 - Sociaal element: je kunt vrienden toevoegen en hun punten zien.
-- Top charts
+- High scores
 - Punten gaan verloren als je de app afsluit (tegen smartphone-verslaving, zoals de app “Forest”)
 - Apple Watch app
 - Een notepad functie waarop je kunt noteren wat je te binnen schiet.
 - Taken toevoegen met gestures zoals in de app “Clear”.
 
-TODO: (If you have complicated features, it might be good to create a separate sketch for each feature.)
-
 [Prerequisites]
 
-Describe the things that you’ll have to get in order before really starting your project.
+- De data wordt ingevoerd door de gebruiker. Er zijn geen externe data bronnen nodig.
 
-- List the data sources that you will use and whether you will need to transform the data before it is usable for your application. The list should include links to where the data sources can be found.
+- Voor de cloud sync is kan gebruikt worden gemaakt van een iCloud storage API.
 
-- List the external components (libraries like d3-tip or SQLite) that you need to implement certain features. Include the names, and if the component is not standard, include a link to its website.
+- Voor de eventuele high score functie moet gebruik worden gemaakt van een externe database zoals AWS of Oracle Cloud.
 
-- Include a review of similar mobile apps or related visualizations, in terms of features and technical aspects: what do they do? how have they implemented it? can you do it in the same way?
+##### Vergelijkbare apps
+- De app "Due" gebruikt herhalende meldingen om ervoor te zorgen dat de gebruiker de herinnering niet vergeet. Dit wil ik ook toepassen in deze app. Dit zorgt ervoor dat je niet de melding negeert (omdat je ergens mee bezig bent) en het vervolgens vergeet. Met een "actionable notifiction" kan je dan de keuze maken of je de taak als voltooid wilt markeren, of nog even door wilt gaan.
+- De app "Forest" geeft je punten wanneer je de app geopend houdt. Dit wil ik als optie toevoegen onder de instellingen.
+- De interface van de app "Clear" heeft een intuitieve manier om taken toe te voegen en te verwijderen met "gestures". Deze wil ik globaal overnemen zodat er minder knoppen nodig zijn die de interface rommelig maken.
 
--I dentify the hardest parts of implementing your application: think of technical problems or limitations that could arise during development and what possibilities you have to overcome these.
-
-[Sanity check]
-
-- Before continuing, compare your solution to the project requirements one last time. Also, is it still clear that your proposed project is indeed a solution to the stated problem?
-
-- Also, the proposal document should be well-written and clearly formatted. Do not forget to include a title, your name, and a paragraph summary of the application goals at the top.
-
-- Finally, make sure that your document is spell-checked, and that images are not too large or too small (your document will be read in a normal browser via GitHub).
-
-[Submitting]
-
-- After you have pushed all changes to Github, copy the URL of the GitHub page for your project and submit it below. It will be in this format: https://github.com/username/project.
-
-- Don’t commit any code yet! Your repository should be clean for us to read, containing the README.md, a doc folder (exactly that name), pictures in the doc folder, and nothing else.
-
-[What’s next]
-
-- The next step in your project is creating a design document. There, you’ll describe how your project will be created according to the rules of the application framework that you’re using.
-
-- Meanwhile, keep an eye on the GitHub Issues for your project. This is where you will get feedback on whether your project is accepted as it is described, or you need to make some changes.
-
-
-
+-Identify the hardest parts of implementing your application: think of technical problems or limitations that could arise during development and what possibilities you have to overcome these.
+ - De hoeveelheid mogelijke functies maakt het lastig om een UI te ontwerpen die makkelijk te leren is en fijn in gebruik.
+  - Een manier om dit tegen te gaan is door de meer specifieke functies te "verstoppen" of standaard uit te schakelen en als optie toe te voegen in de instellingen
