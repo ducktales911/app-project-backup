@@ -15,7 +15,22 @@ It should be clear from your design document how you are going to do this!
 
 #### Some parts that you should describe here:
 
-advanced sketches of your UI that clearly explain which features are connected to which underlying part of the code (e.g. where the database is accessed and what for)
+- advanced sketches of your UI that clearly explain which features are connected to which underlying part of the code (e.g. where the database is accessed and what for)
+
+Update de schets van de proposal in sketch: 
+  - vooralsnog 1 scherm
+  - een lijst met taken, onder elke taak een progress bar
+    - connected to which underlying part of the code?
+  - nog geen hamburger menu nodig
+  - gebruik in eerste versie een + knop voor toevoegen taken
+    - connected to which underlying part of the code?
+  - gebruik time picker: eerst op "domme" locatie boven toetsenbord. hoeft nog niet te scalen.
+    - connected to which underlying part of the code?
+  - gebruik vooralsnog 1 timebox per taak (dus nog geen pauzes / pomodoro's)
+  - main timer bovenin en individuele timers per taak
+    - connected to which underlying part of the code (swift Timer class?)
+  - notificaties met Quick Actions
+    - connected to which underlying part of the code?
 
 - a diagram of utility modules, classes and functions that you will need to implement, in appropriate detail
 
