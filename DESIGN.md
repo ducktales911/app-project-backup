@@ -17,7 +17,7 @@ It should be clear from your design document how you are going to do this!
 
 - advanced sketches of your UI that clearly explain which features are connected to which underlying part of the code (e.g. where the database is accessed and what for)
 
-https://github.com/ducktales911/app-project/blob/master/doc/Flow%20app.png?raw=true
+![Sketch](https://github.com/ducktales911/app-project/blob/master/doc/Flow%20app.png?raw=true)
 
 Update de schets van de proposal in sketch: 
   - vooralsnog 1 scherm
