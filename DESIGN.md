@@ -15,8 +15,6 @@ It should be clear from your design document how you are going to do this!
 
 #### Some parts that you should describe here:
 
-- advanced sketches of your UI that clearly explain which features are connected to which underlying part of the code (e.g. where the database is accessed and what for)
-
 ![Sketch](https://github.com/ducktales911/app-project/blob/master/doc/Flow%20app.png?raw=true)
 
 Update de schets van de proposal in sketch: 
@@ -35,6 +33,7 @@ Update de schets van de proposal in sketch:
     - connected to which underlying part of the code?
 
 - a diagram of utility modules, classes and functions that you will need to implement, in appropriate detail
+
 
 - a list of APIs and frameworks or plugins that you will be using to provide functionality in your app
 - a list of data sources if you will get data from an external source, including information on how your are going to filter and transform the data for your project
