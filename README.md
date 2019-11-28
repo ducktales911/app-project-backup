@@ -18,18 +18,6 @@ Timeboxing is het vooraf beperken van de hoeveelheid tijd die men aan een bepaal
 - Melding wanneer de tijd voor de taak op is met de tekst "Time for [taak+1]" met Quick Actions:
   - Snooze = huidige taak verlengen
   - Beginnen met [taak+1]
-- Pomodoro functie
-  - Elke 25 minuten geeft de app een melding
-  - Na elk werkblok gaat een pauze van 5 minuten in
-- Synchronisatie tussen apparaten
-- Punten worden verdient door:
-  - Taken te voltooien (langere taken leveren meer punten op)
-- Punten gaan verloren door:
-  - Taken door te schuiven (aan het eind van de dag geven alle onvoltooide taken minpunten)
-  - Taken uit te laten lopen: de wekker telt door nadat de tijd op is.
-- Mogelijkheid om templates van takenlijsten aan te maken
-- Universele app
-- Dark Mode
 
 ### Optioneel te implementeren
 - Een “nag” functie voor meldingen: blijf meldingen sturen totdat de gebruiker gehoor geeft (zoals de app “Due”).
@@ -40,6 +28,18 @@ Gamification element: je krijgt punten door het voltooien van taken. En minpunte
 - Apple Watch app
 - Een notepad functie waarop je kunt noteren wat je te binnen schiet.
 - Taken toevoegen met gestures zoals in de app “Clear”.
+- Synchronisatie tussen apparaten
+- Universele app
+- Dark Mode
+- Pomodoro functie
+  - Elke 25 minuten geeft de app een melding
+  - Na elk werkblok gaat een pauze van 5 minuten in
+- Punten worden verdient door:
+  - Taken te voltooien (langere taken leveren meer punten op)
+- Punten gaan verloren door:
+  - Taken door te schuiven (aan het eind van de dag geven alle onvoltooide taken minpunten)
+  - Taken uit te laten lopen: de wekker telt door nadat de tijd op is.
+- Mogelijkheid om templates van takenlijsten aan te maken
 
 ## Prerequisites
 
