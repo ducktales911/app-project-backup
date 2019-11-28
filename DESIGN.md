@@ -4,6 +4,8 @@ The first version of this app will only have one view. Tasks will be added by a 
 
 ![Classes](https://github.com/ducktales911/app-project/blob/master/doc/Classes%20diagram%201.png?raw=true)
 
+![Database](https://github.com/ducktales911/app-project/blob/master/doc/Database%20diagram%201.png?raw=true)
+
 ### Bronnen
 Voor de list interface:
 https://www.raywenderlich.com/2153-how-to-make-a-gesture-driven-to-do-list-app-like-clear-in-swift-part-1-2
